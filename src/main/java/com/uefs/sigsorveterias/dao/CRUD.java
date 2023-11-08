@@ -1,6 +1,5 @@
 package com.uefs.sigsorveterias.dao;
 
-import com.uefs.sigsorveterias.model.Cliente;
 
 import java.util.List;
 
