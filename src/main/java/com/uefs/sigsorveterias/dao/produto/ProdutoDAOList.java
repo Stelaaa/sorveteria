@@ -1,6 +1,5 @@
 package com.uefs.sigsorveterias.dao.produto;
 
-import com.uefs.sigsorveterias.model.ItemPedido;
 import com.uefs.sigsorveterias.model.Produto;
 import com.uefs.sigsorveterias.model.Estoque;
 import com.uefs.sigsorveterias.model.Produto;
