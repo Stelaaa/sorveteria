@@ -19,21 +19,21 @@ public class HelloApplication  {
         Cliente cliente = DAO.getClienteDAO().create(new Cliente("C", "789"));
         DAO.getClienteDAO().create(new Cliente("D", "741"));
 
-        System.out.println(DAO.getClienteDAO().findMany());
+        logger.info(DAO.getClienteDAO().findMany());
 
-        System.out.println(cliente);
+        logger.info(cliente);
         cliente.setNome("Rafael Tosta");
         DAO.getClienteDAO().update(cliente);
 
-        System.out.println(DAO.getClienteDAO().findMany());
+       logger.info(DAO.getClienteDAO().findMany());
 
-        System.out.println(DAO.getClienteDAO().findById(4));
-        System.out.println(DAO.getClienteDAO().findById(1));
+        logger.info(DAO.getClienteDAO().findById(4));
+       logger.info(DAO.getClienteDAO().findById(1));
 
         DAO.getClienteDAO().delete(new Cliente("D", "741"));
 
-        System.out.println(DAO.getClienteDAO().findMany());
+       logger.info(DAO.getClienteDAO().findMany());
 
-        System.out.println(DAO.getClienteDAO().findById(1));
+        logger.info(DAO.getClienteDAO().findById(1));
     }
 }
