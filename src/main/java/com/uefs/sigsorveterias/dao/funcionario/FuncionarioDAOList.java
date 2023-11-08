@@ -1,7 +1,7 @@
 package com.uefs.sigsorveterias.dao.funcionario;
 
 import com.uefs.sigsorveterias.model.Funcionario;
-import com.uefs.sigsorveterias.model.Funcionario;
+
 
 import java.util.ArrayList;
 import java.util.List;
