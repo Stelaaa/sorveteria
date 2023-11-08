@@ -19,7 +19,7 @@ public class Estoque {
     /**
      * Nível minímo para alerta de produtos que precisam de reposição
      */
-    private final int NIVEL_ALERTA = 5;
+    private final int NIVELALERTA = 5;
 
     /**
      * Descrição geral dos tipos de produtos que serão armazenados
