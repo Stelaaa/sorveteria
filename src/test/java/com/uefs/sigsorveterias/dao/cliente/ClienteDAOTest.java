@@ -14,7 +14,7 @@ class ClienteDAOTest {
     Cliente joao;
     Cliente junior;
     Cliente maria;
-
+        /*TESTE TESTE TESTE
     /**
      * Executa ANTES de cada teste
      */
