@@ -1,6 +1,5 @@
 package com.uefs.sigsorveterias.dao.cliente;
 
-import com.uefs.sigsorveterias.dao.DAO;
 import com.uefs.sigsorveterias.exceptions.ClienteException;
 import com.uefs.sigsorveterias.model.Cliente;
 
