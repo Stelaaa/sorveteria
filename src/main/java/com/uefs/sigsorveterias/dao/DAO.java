@@ -17,7 +17,7 @@ import com.uefs.sigsorveterias.dao.produto.ProdutoDAOList;
 import com.uefs.sigsorveterias.dao.venda.VendaDAO;
 import com.uefs.sigsorveterias.dao.venda.VendaDAOList;
 
-public class DAO {
+private class DAO {
 
     private static ClienteDAO clienteDAO;
     private static EstoqueDAO estoqueDAO;
